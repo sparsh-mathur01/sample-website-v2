@@ -1,0 +1,60 @@
+body {
+  padding-left: 20px;
+  background: url("./background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: blue;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+
+ol:not(.flex) {
+  margin-left: -150px;
+  margin-top: 20px;
+}
+
+ol:not(.flex) li a {
+  text-decoration: none;
+}
+
+table {
+  margin-left: 150px;
+  border-collapse: collapse;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th {
+  background-color: #009879;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+th,
+td {
+  width: 150px;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+tr:hover {
+  color: #009879;
+  font-weight: bold;
+  cursor: pointer;
+}
